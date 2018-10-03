@@ -13,6 +13,7 @@ mongoose.connect('mongodb://localhost:27017/auth');
 
 
 
+
 const {User} = require('./models/user');
 app.use(bodyParser.json());
 
